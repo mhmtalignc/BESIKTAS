@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=PT+Sans+Narrow&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'PT Sans Narrow', sans-serif;
+    background-color: rgb(151, 146, 146);
+   
+
+}
+
+.social {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(0, 0, 0);
+    height: 65px;
+    width: 100%;
+    position: sticky;
+    /*  Yukarı sabitledi top 0 la  */
+    top: 0;
+    z-index: 1;
+    /* Üzerine bir sayfa gelmesin */
+    font-size: 28x;
+    text-align: center;
+    padding: 15px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.social-media {
+    display: flex;
+    gap: 30px;
+    margin: 0 20px;
+}
+
+.social span {
+    font-size: 20px;
+}
+
+.social-media:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+
+header {
+    background-color: black;
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#besiktas {
+    font-size: 65px;
+    color: white;
+    text-align: center;
+    margin: 90px 150px;
+    letter-spacing: 20px;
+}
+
+#banner-img {
+    margin: 0 10px;
+}
+
+/* Section */
+section {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0 2px 8px 2px rgb(0, 0, 0);
+    overflow: auto;
+}
+nav{
+    width: 20%;
+    float: left;
+    margin-top: 10px;
+    height: auto;
+}
+nav ul{
+    width: auto;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+nav li{
+    list-style-type: none;
+
+}
+nav li a{
+    height: 50px;
+    line-height: 50px; /* Satır yüklekligi  */
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid rgb(212, 105, 105);
+    padding-left: 15px;
+
+    
+    display: block;
+    
+}
+nav li a:hover{
+    background-color: black;
+    color: white;
+    
+}
+i{
+    margin-right: 10px;
+}
+main{
+    float: left;
+    height: auto;
+    width: 80%;
+    padding: 10px;
+}
+.icerik{
+    width: 48%;
+    height: auto;
+    display: inline-block;
+    margin-right: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px 2px rgb(0, 0, 0);
+    margin-bottom: 15px;
+}
+.rsm{
+    width: 100%;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+}
+
+.icerik-text{
+    
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.icerik a{
+    display: block;
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 7px;
+    border-radius: 15px;
+    letter-spacing: 1.5px;
+    transition: all 0.5s;
+
+}
+.icerik a:hover{
+    background-color: white;
+    color: black;
+    border: 1.5px solid black;
+    font-weight: 700;
+    transition: all 0.5s;
+    
+}
+footer{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    box-shadow: 0 2px 8px 2px rgb(255, 255, 255);
+    
+    line-height: 100px;
+    letter-spacing: 5px;
+}
+.icerik #cenk{
+    height: 241px;
+}
+#vodafone-park{
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 45px;
+    line-height: 45px;
+    margin: 0 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px 2px rgb(255, 255, 255);
+
+}
+#vodafone-park-img{
+    width: 350px;
+    height: 300px;
+    float: left;
+    border-radius: 10px;
+    margin: 10px;
+    margin-bottom: 10px;
+    transition: all 0.7s;
+  
+
+}
+#vodafone-park-img:hover{
+    transition: all 0.7s;
+    opacity: 0.7;
+    cursor: pointer;
+    border: 2px solid black;
+    padding: 1px;
+}
+.info-vodafone-park{
+    margin-top: 10px;
+    letter-spacing: 0.6px;
+    font-weight: 550;
+    line-height: 25px;
+    
+    
+}
+main hr{
+    margin:10px 0;
+}
+#sampiyonluklar{
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 45px;
+    line-height: 45px;
+    margin: 0 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px 2px rgb(255, 255, 255);
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.card{
+    display: flex;
+    margin-bottom: 15px;
+}
+.card img{
+    cursor: pointer;
+    height: 350px;
+    width: 400px;
+    border-radius: 10px;
+    margin-right: 10px;
+    
+    
+    
+}
+.card img{
+    
+}
+.card-info{
+    line-height: 25px;
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+    font-size: 19px;
+    justify-content: space-evenly;
+}
+h3 span{
+    color: rgb(219, 59, 59);
+}
+.card a{
+    display: block;
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 7px;
+    border-radius: 15px;
+    letter-spacing: 1.5px;
+    transition: all 0.5s;
+    margin: 0 auto;
+
+}
+.card a:hover{
+    background-color: white;
+    color: black;
+    border: 1.5px solid black;
+    font-weight: 700;
+    transition: all 0.5s;
+    
+}
+.kupalar{
+  text-align: center;
+  
+}
+.kupalar img{
+    
+    border-radius: 5px;
+    opacity: 0.8;
+    width: 30%;
+    height: 200px;
+    
+    
+}
+.kupalar img:hover{
+    border: 1px solid crimson;
+    cursor: pointer;
+    padding: 5px;
+    opacity: 1;
+}
+.kupalar a:link{
+    text-decoration: none;
+}
